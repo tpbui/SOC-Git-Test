@@ -5,3 +5,6 @@ def test_dummy():
 
 def test_number_one():
     assert(process(1) == 1)
+
+def test_number_simple_number():
+    assert(process(2) == 2)
