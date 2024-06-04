@@ -14,3 +14,7 @@ def test_multiple():
     assert(process(6) == "fizz")
     assert(process(9) == "fizz")
     assert(process(90) == "fizz")
+
+def test_multiple_of_five_buzz():
+    assert(process(5) == "buzz")
+    assert(process(10) == "buzz")
