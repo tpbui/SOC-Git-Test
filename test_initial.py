@@ -18,3 +18,9 @@ def test_multiple():
 def test_multiple_of_five_buzz():
     assert(process(5) == "buzz")
     assert(process(10) == "buzz")
+
+def test_fizzbuzz():
+    assert(process(15) == "fizzbuzz")
+    assert(process(30) == "fizzbuzz")
+    assert(process(45) == "fizzbuzz")
+    assert(process(90) == "fizzbuzz")
